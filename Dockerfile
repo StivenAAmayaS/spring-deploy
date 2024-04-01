@@ -1,4 +1,4 @@
 FROM openjdk:19
 MAINTAINER SSAMAYA
-COPY ./target/spring-deploy-1.0.0.jar spring-app.jar
+COPY *.jar spring-app.jar
 ENTRYPOINT ["java", "-jar", "/spring-app.jar"]
