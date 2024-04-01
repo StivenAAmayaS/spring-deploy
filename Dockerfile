@@ -1,4 +1,4 @@
-FROM amazoncorretto:17-apine-jdk
+FROM openjdk:19
 
 COPY target/spring-deploy-1.0.0.jar app.jar
 
